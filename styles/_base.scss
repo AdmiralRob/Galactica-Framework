@@ -1,0 +1,79 @@
+
+$primary: #990000;
+$secondary: #cc0000;
+$tertiary: #00cccc;
+$background: #000000;
+
+$serif: serif;
+$san-serif: sans-serif;
+
+body {
+//	color: $primary;
+//	font-family: special font?, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+//    color: $primary;
+//    font-weight: lighter;
+}
+
+h2 {
+//    font-size: 2.3125rem;
+}
+
+p {
+	
+}
+
+a {
+//	color: $hilite;
+//	transition: text-shadow 0.333s ease;
+//	-webkit-transition: text-shadow 0.333s ease;
+//	text-shadow: 0;
+	&:hover {
+//		color: $hilite;
+//		text-shadow: 1px 1px 1px $primary;
+	}
+}
+
+ .floatleft {
+    float: left;
+ }
+
+ .floatright {
+    float: right;
+ }
+
+.alignleft {
+	display:inline;
+	float:left;
+	margin-right:1em;
+}
+.alignright {
+	display:inline;
+	float:right;
+	margin-left:1em;
+}
+.aligncenter {
+	clear:both;
+	margin:1em auto;
+	text-align:center;
+}
+
+.fancy {
+//	font-family: "lush", cursive;
+//	font-size: 5rem;
+//    color: white;
+//    font-weight: lighter;
+}
+
+.page-title {
+//    font-family: "lush", cursive;
+//	font-size: 5rem;
+//    color: $primary;
+//    font-weight: lighter;
+}
+
+input[type="submit"] {
+    
+}

@@ -1,0 +1,43 @@
+footer .bottomest-bar {
+    background: #4F4F4F;
+    p {
+        float: left;
+        color: white;
+        font-size: .8rem;
+        margin-bottom: 0px;
+    }
+    a {
+        float: right;
+        color: white;
+        font-size: .8rem;
+        font-weight: 100;
+        &:hover {
+            color: $tertiary;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {  
+    footer .bottomest-bar {
+        p {
+            text-align: center;
+            float: none;
+        }
+        a {
+            text-align: center;
+            float: none;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 401px) { 
+    footer {
+        .bottomest-bar {
+            a {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
